@@ -1,10 +1,13 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from utils import clean_data, add_categories
+import os
 
-
-def load_data(path="data/transactions.csv"):
-    return pd.read_csv(path)
+def load_data():
+    # Ensure path always points to ../data/
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    DATA_PATH = os.path.join(BASE_DIR, "data", "transactions.csv")
+    return pd.read_csv(DATA_PATH)
 
 
 def summarize_monthly(df):
