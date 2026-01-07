@@ -1,0 +1,5 @@
+# Ignore virtual environments
+expense_env/
+.env
+__pycache__/
+*.pyc
