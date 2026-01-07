@@ -1,12 +1,14 @@
 import pandas as pd
 
 CATEGORY_KEYWORDS = {
-    "Food": ["swiggy", "zomato", "restaurant", "pizza", "hotel"],
-    "Transport": ["uber", "ola", "fuel", "metro", "bus"],
-    "Shopping": ["amazon", "flipkart", "shopping", "mall"],
-    "Utilities": ["electricity", "water", "gas", "recharge", "wifi"],
-    "Health": ["doctor", "hospital", "medicine", "pharmacy"],
-    "Income": ["salary", "credit"],
+    "Food": ["swiggy", "zomato", "restaurant"],
+    "Transport": ["uber", "ola", "bus", "train"],
+    "Shopping": ["amazon", "flipkart"],
+    "Utilities": ["electricity", "internet", "recharge"],
+    "Health": ["pharmacy", "hospital"],
+    "Fitness": ["gym"],
+    "Entertainment": ["movie"],
+    "Income": ["salary", "bonus"]
 }
 
 
